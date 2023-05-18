@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta  name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>PORTFORIO CONTACT</title>
+        <link rel="stylesheet" href="contact.css"/>
+    </head>
+
+    <body>
+    <div class="header">
+    <h2>CONTACT</h2>
+    <p>必要事項を記入して登録ボタンを押してください。</p>
+    </div>
+<form action="#">
+    <class="contact-form">
+    <div class="contact-item">
+    <p class="form-title">お名前<span class="must">必須
+</span></p>
+<input type="text" name="username" />
+</div>
+<div class="contact-item">
+    <p class="form-title">電話番号<span class="must">必須
+    </span></p>
+    <input type="tel" name="tel" />
+</div>
+<div class="contact-item">
+<p class="form-title">メールアドレス<span class="must">必須
+</span></p>
+<input type="email" name="mail" />
+</div>
+<div class="contact-item">
+    <p class="form-title">お問い合わせ<span class="must">必須
+    </span></p>
+    <textarea name="remarks" cols="40" rows="4" 
+    maxlength="40" ></textarea>
+</div>
+<br />
+<div class="btn-item">
+<input class="btn-item" type="submit" onclick="alert('send now!'); 
+return false;" value="登録">
+<input class="btn" type="reset" value="クリア"/>
+</div>
+</div>
+</form>
+    </body>
+</html>

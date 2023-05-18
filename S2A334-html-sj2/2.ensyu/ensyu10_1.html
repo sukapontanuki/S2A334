@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>疑似要素の練習</title>
+    <style type="text/css">
+        h3::before{
+            content: "★" ;
+        }
+    a::after{
+        content: url(yajirushi.png);
+        vertical-align: middle;
+    }
+    p.letter::first-letter {
+        font-size: 2em;
+    }
+    p.letter::first-line {
+        color: #f0f;
+    }
+    </style>
+    </head>
+    <body>
+        <h3>タイトルの先頭に星マークを追加</h3>
+        <a href="#">語尾に矢印の画像を追加</a>
+        <p class="letter">
+        日本では、正月におせちやお雑煮を食べる文化があります。
+        お雑煮は地域によって具材や味付けが様々です。
+        </p>
+        <p class="line">
+        このように1文字目だけ、また1行目だけスタイルを変えることに
+        よって、読みやすくなります。長文が続く時のアクセントにもなります。
+        </p>
+    </body>
+</html>

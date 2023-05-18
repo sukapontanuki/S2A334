@@ -1,0 +1,17 @@
+section{ text-align: center;}
+.flex-container{
+display : flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.flex-item {
+background-color: #990000;
+color: white;
+margin: 0 1em 1em;
+flex-basis: 30%;    
+}
+@media screen and (max-width: 780px){
+    .flex-container{
+        flex-direction: column;
+    }
+}

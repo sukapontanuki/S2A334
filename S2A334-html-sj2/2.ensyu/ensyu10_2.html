@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>疑似要素の練習</title>
+    <style type="text/css">
+        a{
+            text-decoration: none;
+            transition: background-color 1.0s;
+        }
+        a:link {color:#00f}
+        a:visited {color:#f0f}
+        a:hover {background-color:#ff0}
+        a:active {background-color:#00f}
+        a:focus {
+            outline:none;
+            border:4px solid#0f0;
+        }
+        li:nth-of-type(even){
+            background-color: #ccc;
+        }
+        </style>
+    </head>
+    <body>
+    <ul>
+        <li><a href="http://example.com">未訪問リンク</a></li>
+        <li><a href="https://www.ac.jp/">訪問済みリンク</a></li>
+        <li><a href="http://example.com">ホバーでスタイル変更</a></li>
+        <li><a href="http://example.com">クリックしている間</a></li>
+        <li><a href="http://example.com">フォーカス時</a></li>
+    </ul>
+    </body>
+</html>

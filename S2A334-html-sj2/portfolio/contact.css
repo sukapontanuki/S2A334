@@ -1,0 +1,52 @@
+.header{
+    text-align: center; /* テキストを中央寄せ*/
+}
+.contact-form{
+    display: flex; /* Flexboxレイアウト*/
+    flex-direction: column;/*子要素を上から下に並べる*/
+    max-width: 500px;/*要素の最大幅*/
+    margin: 0 auto; /*中央寄せ(左右余白自動)*/
+}
+.form-title{
+margin-bottom: 2px;
+font-size: 1.2rem;
+}
+.contact-item input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    width: 100%;
+}
+.contact-item select{
+    padding: 5px;
+    border-radius:5px;
+    border: 1px solid #CCC;
+    width: 60%;
+}
+.contact-item textarea{
+    padding: 5px;
+    border-radius:5px;
+    border: 1px solid #CCC;
+    height:100px;
+    width: 100%;
+}
+.must {
+    margin-left: 5px;
+    padding: 2px;
+    font-size:0.8rem;
+    background-color:red;
+    color:#fff;
+    border-radius:5px;
+    border:1px solid #CCC;
+}
+.btn{
+    width:100%;
+    padding: 10px 50px;
+    background-color:#7f6666;
+    font-size:1.2rem;
+    color:#fff;
+    font-weight: bold;
+    border-radius:10px;
+    margin-top:10px;
+    cursor:pointer;
+}
