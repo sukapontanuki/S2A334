@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>学生情報登録３</title>
+    </head>
+
+    <body>
+    <h2>学生情報登録３</h2>
+    <p>必要情報を記入し、登録ボタンを押してください。</p>
+    <br />
+    <from action="#">
+        <class="contact-form">
+        <div class="contact-item">
+    <p class="form-title">学籍番号<span class="must">必須</span></p>
+    <input type="number" name="studentid">
+</div>
+<div class="contact-item"> 
+    <p class="form-title">氏名 <span class="must">必須</span></p>
+    <input type="text" name="userid">
+</div>
+<div class="contact-item">
+    <p class="form-title">電話番号<span class="must">必須</span></p>
+    <input type="text" name="tel">
+</div>
+<div class="contact-item">
+    <p class="form-title">生年月日<span class="must">必須</span></p>
+    <input type="date" name="tel">
+</div>
+<div class="contact-item">
+    <p  class="form-title">メール<span class="must">必須</span></p>
+    <input type="text" name="mail">
+</div>
+<div class="contact-item">
+    <p  class="form-title">住所</p>
+    <input type="text" name="address">
+</div>
+    <p class="form-title">性別<span class="must">必須</span></p>
+    <input type="radio" name="gender" value="男"checked>
+    <span>男</span>
+    <input type="radio" name="gender" value="女"id="woman">
+    <span>女</span>
+    <div class="contact-item">
+    <p class="form-title">学科<span class="must">必須</span></p>
+    <select name="course">
+        <option selected value="情報大学併学科">情報大学併学科</option>
+        <option selected value="システムエンジニア科">システムエンジニア科</option>
+        <option selected value="ITシステム科">ITシステム科</option>
+    </select>
+    </div>
+</class> 
+        <p class="form-title">受講科目（複数選択可）</p>
+        <div>
+            <span><input  type="checkbox"  name="subject" value="HTML">HTML </span>
+            <span><input  type="checkbox"  name="subject" value="Java">Java </span>
+            <span><input  type="checkbox"  name="subject" value="SQL">SQL </span>
+            <span><input  type="checkbox"  name="subject" value="国対">国対 </span>
+        </div>
+        <div class="contact-item">
+    <p class="form-title">備考</p>
+    <textarea name="remarks"   cols="40"   rows="4"  maxlength="40"></textarea>
+    </div>
+    <br />
+    <div class="btn-item">
+    <input type="submit" onclick="alert('send now!');
+return false;"  value="登録">
+    <input class="btn" type="reset" value="クリア"/>
+</div>
+</div>
+    </form>
+    </body>
+</html>

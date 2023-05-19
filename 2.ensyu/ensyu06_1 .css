@@ -1,0 +1,23 @@
+header{
+    background-color: blue;
+    height: 100px;
+}
+
+nav {
+    background-color: yellow;
+    float:left;
+    width: 30%;
+    height: 200px;
+}
+#art{
+    background-color: red;
+    float: right;
+    width: 70%;
+    height: 200px;
+}
+
+footer{
+    clear: both;
+    background-color:  gray;
+    height: 50px;
+}

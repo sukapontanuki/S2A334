@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>学生情報登録１</title>
+    </head>
+
+    <body>
+    <h2>学生情報登録１</h2>
+    <p>必要情報を記入し、登録ボタンを押してください。</p>
+    <br />
+    <form action="#">
+    <p>学籍番号</p>
+    <input type="text" name="studentid">
+    <p>氏名</p>
+    <input type="text" name="userid">
+    <p>電話番号</p>
+    <input type="text" name="tel">
+    <p>備考</p>
+    <textarea name="remarks"   cols="40"   rows="4"  maxlength="40"></textarea>
+    <br />
+    <input type="submit" onclick="alert('send now!'); return false;"  value="登録">
+    <input type="reset" value="クリア"/>
+    </form>
+    </body>
+</html>
